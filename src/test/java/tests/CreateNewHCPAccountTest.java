@@ -9,6 +9,8 @@ import util.Property;
 
 public class CreateNewHCPAccountTest extends BaseTest{
 	
+	private static final String TESTSTRING = "test";
+	
 	@Test
 	public void get10MinutesEmail() {
 		driver.get(Property.MAIN_APPLICATION_PAGE_URL);	
@@ -36,8 +38,8 @@ public class CreateNewHCPAccountTest extends BaseTest{
 	
 	@Test(dependsOnMethods = {"openNewHCPAccountForm"})
 	public void createNewHCPAccountAccount() {
-		enterText(Locators.ADMIN_ADD_NEW_USER_NAME, "name");
-		enterText(Locators.ADMIN_ADD_NEW_USER_LASTNAME, "name");
+		enterText(Locators.ADMIN_ADD_NEW_USER_NAME, TESTSTRING);
+		enterText(Locators.ADMIN_ADD_NEW_USER_LASTNAME, TESTSTRING);
 		enterText(Locators.ADMIN_ADD_NEW_USER_EMAIL, Property.NEW_ACCOUNT_EMAIL);
 		selectInDropDown(Locators.ADMIN_ADD_NEW_USER_SITES_DROPDOWN, 3);
 		click(Locators.ADMIN_ADD_NEW_USER_SUBMIT);

@@ -11,12 +11,18 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import exception.UnsupportedBrowserException;
 import util.Property;
+import util.WebDriverProvider;
 
 public class BaseTest {
 	public static WebDriver driver;
-	
 	protected static final int WAIT_ELEMENT_TIMEOUT = 5;
+	protected WebDriverProvider webDriverProvider;
+	
+	public BaseTest() {
+		webDriverProvider = new WebDriverProvider();
+	}
 	
 	public void waitForElementPresent(By locator) {
 		new WebDriverWait(driver, WAIT_ELEMENT_TIMEOUT).until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
@@ -29,8 +35,12 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp() {
 		if(driver == null) {
-			System.setProperty("webdriver.chrome.driver", Property.PATH_TO_CHROMEDRIVER);
-			driver = new ChromeDriver();
+			try {
+				driver = webDriverProvider.getDriver();
+				driver.manage().window().maximize();
+			} catch (UnsupportedBrowserException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	

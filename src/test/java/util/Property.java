@@ -14,6 +14,7 @@ public class Property {
     public static final String HCP_LOGIN;
     public static final String HCP_PASS;
     public static final String NEW_ACCOUNT_EMAIL = "test123@remove.com";
+    public static final Browsers BROWSER;
     
     static {
 	    try {
@@ -27,5 +28,6 @@ public class Property {
 	        MAIN_APPLICATION_PAGE_URL = property.getProperty("MAIN_APPLICATION_PAGE_URL");	
 	        HCP_LOGIN = property.getProperty("HCP_LOGIN");
 	        HCP_PASS = property.getProperty("HCP_PASS");
+	        BROWSER = Browsers.forValue(property.getProperty("BROWSER"));
     }
 }
