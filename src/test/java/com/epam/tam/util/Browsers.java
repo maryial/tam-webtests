@@ -1,4 +1,4 @@
-package util;
+package com.epam.tam.util;
 
 import com.google.common.base.CaseFormat;
 

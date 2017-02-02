@@ -1,4 +1,4 @@
-package util;
+package com.epam.tam.util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import exception.UnsupportedBrowserException;
+import com.epam.tam.exception.UnsupportedBrowserException;
 
 public class WebDriverProvider {
 	
@@ -33,5 +33,4 @@ public class WebDriverProvider {
 	interface IDriver {
 		WebDriver getDriver();
 	}
-
 }

@@ -1,6 +1,6 @@
-package exception;
+package com.epam.tam.exception;
 
-import util.Browsers;
+import com.epam.tam.util.Browsers;
 
 public class UnsupportedBrowserException extends Exception {
 	public UnsupportedBrowserException(Browsers browser) {
