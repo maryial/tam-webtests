@@ -1,6 +1,7 @@
 package com.epam.tam.tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,7 @@ import com.epam.tam.util.WebDriverProvider;
 public class BaseTest {
 	protected static WebDriver driver;
 	protected WebDriverProvider webDriverProvider;
+	
 	
 	public BaseTest() {
 		webDriverProvider = new WebDriverProvider();
