@@ -15,7 +15,7 @@ import com.epam.tam.util.Property;
 
 public class NewHCPAccountPage extends Page {
 
-	final static Logger logger = LogManager.getLogger(NewHCPAccountPage.class);
+	private final static Logger LOGGER = LogManager.getLogger(NewHCPAccountPage.class);
 
 	@FindBy(xpath = "//div[@class='modal-content' and .//*[contains(normalize-space(h1), 'New User')]]")
 	private WebElement newHCPAccountForm;
@@ -53,7 +53,7 @@ public class NewHCPAccountPage extends Page {
 	public AdminPage createNewHCPAccount(String name, String lastName,
 			String email, String site, boolean orgAdmin, boolean siteAdmin)
 			throws ValueNotFoundInDropDownException, ElementByXpathNotFoundException {
-		logger.info(
+		LOGGER.info(
 				"Creating account with name {}, lastName {}, email {}, site {}, orgAdmin {}, siteAdmin {}",
 				name, lastName, email, site, orgAdmin, siteAdmin);
 		nameField.sendKeys(name);
@@ -80,9 +80,9 @@ public class NewHCPAccountPage extends Page {
 			drop.selectByIndex(index);
 			return;
 		}	
-		logger.error("Failed to locate {} value by xpath {} " + xpath);
-		logger.error("Available drop down options: {}", dropDown.getText());
-		logger.error("Page source:\n" + driver.getPageSource());
+		LOGGER.error("Failed to locate {} value by xpath {} " + xpath);
+		LOGGER.error("Available drop down options: {}", dropDown.getText());
+		LOGGER.error("Page source:\n" + driver.getPageSource());
 		throw new ValueNotFoundInDropDownException(dropDown, value);
 	}
 	

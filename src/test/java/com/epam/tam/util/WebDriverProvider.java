@@ -18,6 +18,7 @@ public class WebDriverProvider {
 			System.setProperty("webdriver.chrome.driver", Property.PATH_TO_CHROMEDRIVER);
 			return new ChromeDriver();
 			}));
+		
 		DRIVERS.put(Browsers.FIREFOX, (() -> new FirefoxDriver()));
     }
 

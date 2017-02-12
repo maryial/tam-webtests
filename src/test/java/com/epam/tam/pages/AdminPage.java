@@ -12,7 +12,7 @@ import com.epam.tam.util.Property;
 
 public class AdminPage extends Page {
 	
-	final static Logger logger = LogManager.getLogger(LoginPage.class);
+	private final static Logger LOGGER = LogManager.getLogger(AdminPage.class);
 
 	@FindBy(xpath = "//img[@alt='add hcp']")
 	private WebElement newHCPAccountBtn;
@@ -26,13 +26,14 @@ public class AdminPage extends Page {
 	}
 	
 	public NewHCPAccountPage openNewHCPAccountForm() {
-		logger.info("Opening new HCP Account form");
+		LOGGER.info("Opening new HCP Account form");
 		newHCPAccountBtn.click();
 		return new NewHCPAccountPage(driver);
 	}
 	
 	public boolean newHCPAccountIsCreated(String email) throws ElementByXpathNotFoundException {
-		logger.info("Looking for 'Pending' status for account with email {}", email);
+		LOGGER.info("Looking for 'Pending' status for account with email {}", email);
+		jsExecutor.executeScript("location.reload()");
 		return findWebElementWithEmail(email).isDisplayed();
 	}
 	

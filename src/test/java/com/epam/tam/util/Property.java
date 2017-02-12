@@ -12,7 +12,7 @@ import com.epam.tam.pages.NewHCPAccountPage;
 
 public class Property {
 
-	private final static Logger logger = LogManager.getLogger(Property.class);
+	private final static Logger LOGGER = LogManager.getLogger(Property.class);
 	private static FileInputStream fis;
     private static Properties property;
     private final static String fileLocation = "src/test/resources/test.properties";
@@ -21,9 +21,9 @@ public class Property {
     public static final String MAIN_APPLICATION_PAGE_URL;
     public static final String HCP_LOGIN;
     public static final String HCP_PASS;
-    public static final String NEW_ACCOUNT_EMAIL;
     public static final Browsers BROWSER;
     public static final int TIMEOUT;
+    public static final String PATH_TO_SCREENSHOTS;
     
     static {
 	    try {
@@ -31,20 +31,20 @@ public class Property {
 	        property = new Properties();
 	        property.load(fis);
 	    } catch (IOException e) {
-	        logger.error("File not found");
+	        LOGGER.error("File not found");
 	    }
 	        PATH_TO_CHROMEDRIVER = property.getProperty("PATH_TO_CHROMEDRIVER");
 	        MAIN_APPLICATION_PAGE_URL = property.getProperty("MAIN_APPLICATION_PAGE_URL");	
 	        HCP_LOGIN = property.getProperty("HCP_LOGIN");
 	        HCP_PASS = property.getProperty("HCP_PASS");
-	        NEW_ACCOUNT_EMAIL = property.getProperty("NEW_ACCOUNT_EMAIL");
 	        BROWSER = Browsers.forValue(property.getProperty("BROWSER"));
 	        if(StringUtils.isNumeric(property.getProperty("TIMEOUT"))) {
 	        	TIMEOUT = Integer.parseInt(property.getProperty("TIMEOUT"));
 	        }
 	        else {
-	        	logger.error("Could not parse TIMEOUT property, setting it to 5 sec");
+	        	LOGGER.error("Could not parse TIMEOUT property, setting it to 5 sec");
 	        	TIMEOUT = 5;
 	        }	        
+	        PATH_TO_SCREENSHOTS = property.getProperty("PATH_TO_SCREENSHOTS");
     }
 }

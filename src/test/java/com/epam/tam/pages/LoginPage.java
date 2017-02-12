@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends Page {
 	
-	final static Logger logger = LogManager.getLogger(LoginPage.class);
+	private final static Logger LOGGER = LogManager.getLogger(LoginPage.class);
 	
 	@FindBy(id="email")
 	private WebElement emailField;
@@ -24,7 +24,7 @@ public class LoginPage extends Page {
 	}
 	
 	public MainPage doLogin(String email, String password) {
-		logger.info("Logging in with {} / {}", email, password);
+		LOGGER.info("Logging in with {} / {}", email, password);
 		emailField.clear();
 		emailField.sendKeys(email);
 		passwordField.clear();
