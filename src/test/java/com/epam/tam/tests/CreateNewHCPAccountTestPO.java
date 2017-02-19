@@ -9,6 +9,8 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 import com.epam.tam.exception.ElementByXpathNotFoundException;
 import com.epam.tam.exception.ValueNotFoundInDropDownException;
+import com.epam.tam.model.Doctor;
+import com.epam.tam.model.LoginAccount;
 import com.epam.tam.pages.AdminPage;
 import com.epam.tam.pages.LoginPage;
 import com.epam.tam.pages.MainPage;
@@ -37,7 +39,7 @@ public class CreateNewHCPAccountTestPO extends BaseTest{
 	
 	@Test
 	public void loginHCPAccount() {
-		boolean loginIsComplete = new LoginPage(driver).doLogin(Property.HCP_LOGIN, Property.HCP_PASS).adminPageButtonDisplayed();
+		boolean loginIsComplete = new LoginPage(driver).doLogin(LoginAccount.getInstance()).adminPageButtonDisplayed();
 		Assert.assertTrue(loginIsComplete);
 	}	
 	
@@ -67,7 +69,8 @@ public class CreateNewHCPAccountTestPO extends BaseTest{
 	
 	@Test(dependsOnMethods = {"openNewHCPAccountForm"})
 	public void createNewHCPAccount() throws ValueNotFoundInDropDownException, ElementByXpathNotFoundException {
-		boolean accountCreated = new NewHCPAccountPage(driver).createNewHCPAccount(TEST_STRING, TEST_STRING, NEW_ACCOUNT_EMAIL, TEST_SITE, true, true).newHCPAccountIsCreated(NEW_ACCOUNT_EMAIL);
+		Doctor doctor = new Doctor(TEST_STRING, TEST_STRING, NEW_ACCOUNT_EMAIL, TEST_SITE, true, false);
+		boolean accountCreated = new NewHCPAccountPage(driver).createNewHCPAccount(doctor).newHCPAccountIsCreated(NEW_ACCOUNT_EMAIL);
 		Assert.assertTrue(accountCreated);
 	}
 }

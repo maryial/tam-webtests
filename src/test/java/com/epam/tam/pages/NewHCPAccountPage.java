@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.epam.tam.exception.ElementByXpathNotFoundException;
 import com.epam.tam.exception.ValueNotFoundInDropDownException;
+import com.epam.tam.model.Doctor;
 import com.epam.tam.util.Property;
 
 public class NewHCPAccountPage extends Page {
@@ -50,9 +51,15 @@ public class NewHCPAccountPage extends Page {
 		return newHCPAccountForm.isDisplayed();
 	}
 
-	public AdminPage createNewHCPAccount(String name, String lastName,
-			String email, String site, boolean orgAdmin, boolean siteAdmin)
+	public AdminPage createNewHCPAccount(Doctor doctor)
 			throws ValueNotFoundInDropDownException, ElementByXpathNotFoundException {
+		String name = doctor.getName();
+		String lastName = doctor.getLastName();
+		String email = doctor.getEmail();
+		String site = doctor.getSite();
+		boolean orgAdmin = doctor.isOrgAdmin();
+		boolean siteAdmin = doctor.isSiteAdmin();
+		
 		LOGGER.info(
 				"Creating account with name {}, lastName {}, email {}, site {}, orgAdmin {}, siteAdmin {}",
 				name, lastName, email, site, orgAdmin, siteAdmin);

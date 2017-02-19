@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.epam.tam.model.LoginAccount;
+
 public class LoginPage extends Page {
 	
 	private final static Logger LOGGER = LogManager.getLogger(LoginPage.class);
@@ -23,7 +25,9 @@ public class LoginPage extends Page {
 		super(driver);
 	}
 	
-	public MainPage doLogin(String email, String password) {
+	public MainPage doLogin(LoginAccount loginAccount) {
+		String email = loginAccount.getEmail();
+		String password = loginAccount.getPassword();
 		LOGGER.info("Logging in with {} / {}", email, password);
 		emailField.clear();
 		emailField.sendKeys(email);
