@@ -8,8 +8,11 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.epam.tam.exception.ElementByXpathNotFoundException;
+import com.epam.tam.util.Property;
 import com.epam.tam.util.Utils;
 
 public abstract class Page {
@@ -36,6 +39,11 @@ public abstract class Page {
 			throw new ElementByXpathNotFoundException(xpath, e);
 		}
 		return null;
+	}
+	
+	protected void waitForVisibility(WebElement element) {
+        new WebDriverWait(driver, Property.TIMEOUT)
+             .until(ExpectedConditions.visibilityOf(element));
 	}
 	
 	private void highlightElement(WebElement element) {

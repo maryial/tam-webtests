@@ -5,8 +5,7 @@ import com.google.common.base.CaseFormat;
 public enum Browsers {
 
 	CHROME,
-	FIREFOX,
-	PHANTOM_JS;
+	FIREFOX;
 	
     public static Browsers forValue(String value)
     {

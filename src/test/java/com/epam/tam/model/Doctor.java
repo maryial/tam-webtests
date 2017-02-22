@@ -8,7 +8,7 @@ public class Doctor {
 	private boolean orgAdmin;
 	private boolean siteAdmin;
 	
-	public Doctor(String name, String lastName, String email, String site, boolean orgAdmin, boolean siteAdmin) {
+	protected Doctor(String name, String lastName, String email, String site, boolean orgAdmin, boolean siteAdmin) {
 		this.name = name;
 		this.lastName = lastName;
 		this.email = email;

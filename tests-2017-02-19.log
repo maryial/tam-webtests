@@ -1,0 +1,21 @@
+[ERROR] 2017-02-19 21:21:36.410 [main] WebDriverProvider - The driver executable does not exist: d:\_webdriver\chromedriver\chromedriver.exe
+Command duration or timeout: 2.86 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Lenovo-PC', ip: '192.168.44.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+[ERROR] 2017-02-19 21:22:35.142 [main] WebDriverProvider - The driver executable does not exist: d:\_webdriver\chromedriver\chromedriver.exe
+Command duration or timeout: 221 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Lenovo-PC', ip: '192.168.44.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+[ERROR] 2017-02-19 21:22:59.547 [main] WebDriverProvider - The driver executable does not exist: d:\_webdriver\chromedriver\chromedriver.exe
+Command duration or timeout: 850 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Lenovo-PC', ip: '192.168.44.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+[ERROR] 2017-02-19 21:24:41.716 [main] WebDriverProvider - Error forwarding the new session Empty pool of VM for setup Capabilities [{browserName=chrome, version=, platform=ANY}]
+Command duration or timeout: 4.47 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Lenovo-PC', ip: '192.168.44.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+[INFO ] 2017-02-19 21:26:08.868 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234

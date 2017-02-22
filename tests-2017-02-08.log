@@ -1,0 +1,28 @@
+[INFO ] 2017-02-08 23:14:57.162 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:17:48.427 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:18:13.163 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:18:13.461 [main] LoginPage - Navigating to admin page
+[INFO ] 2017-02-08 23:18:22.847 [main] LoginPage - Opening new HCP Account form
+[INFO ] 2017-02-08 23:18:24.321 [main] NewHCPAccountPage - Creating account with name test, lastName test, email test3210@remove.com, site JHI review, orgAdmin true, siteAdmin true
+[INFO ] 2017-02-08 23:18:27.483 [main] LoginPage - Looking for 'Pending' status for account with email test3210@remove.com
+[INFO ] 2017-02-08 23:37:54.840 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:38:17.833 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:40:57.918 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:41:21.811 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:41:22.122 [main] LoginPage - Will search for rubbish text
+[INFO ] 2017-02-08 23:42:06.528 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:42:29.390 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:42:29.678 [main] LoginPage - Will search for rubbish text
+[INFO ] 2017-02-08 23:50:13.583 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:50:36.631 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:51:28.698 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:51:52.603 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:51:52.894 [main] LoginPage - Will search for rubbish text
+[INFO ] 2017-02-08 23:54:30.380 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:54:53.735 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:55:21.247 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:55:44.098 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:55:44.358 [main] LoginPage - Will search for rubbish text
+[INFO ] 2017-02-08 23:56:35.689 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-08 23:56:57.431 [main] LoginPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-08 23:59:35.810 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234

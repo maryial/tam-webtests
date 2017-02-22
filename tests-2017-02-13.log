@@ -1,0 +1,255 @@
+[INFO ] 2017-02-13 00:02:27.278 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-13 00:05:35.576 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-13 00:29:40.993 [main] LoginPage - Logging in with k2095084@mvrht.com / test1234
+[INFO ] 2017-02-13 00:29:59.977 [main] MainPage - Hovering the mouse over important information tooltip
+[INFO ] 2017-02-13 00:30:00.723 [main] Utils - Taken screenshot screenshot8629764973410408766.png
+[INFO ] 2017-02-13 00:30:00.796 [main] MainPage - Searching for text Notexistingtext3w33rer
+[ERROR] 2017-02-13 00:30:11.009 [main] Page - <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>Care 4 Today | Patient List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+          <link type="text/css" rel="stylesheet" media="all" href="/css/68b6af8.css" />
+      
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TXQ92X"></script><script src="/js/a8d3a0e.js"></script>
+  <base href="/" /></head>
+<body>
+  <div class="main-content">
+      <div class="app-body">
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/patient/page">
+        <img height="30" src="/bundles/frontend/img/navbar/jnj_c4t_logo_color_rgb.png" alt="logo" />
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="/patient/page">
+            Patients
+          </a>
+          <div class="arrow-up"></div>        </li>
+                  <li class="">
+            <a href="/hcp/">Admin</a>
+                      </li>
+                      </ul>
+      <jhi-nav-app><jhi-search><div class="navbar-right navbar-tools">
+    <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+    <input autocomplete="off" class="global-search ng-pristine ng-valid ng-touched" name="global-search" placeholder="Search..." type="text" ng-reflect-name="global-search" ng-reflect-typeahead="[object Object]" ng-reflect-typeahead-min-length="1" ng-reflect-typeahead-wait-ms="500" ng-reflect-typeahead-options-limit="20" ng-reflect-typeahead-option-field="field" />
+    <jhi-profile-dropdown><a class="user-profile">
+    <div class="dropdown">
+        <img alt="update profile" class="clickable" src="/bundles/frontend/img/navbar/update_profile.svg" />
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><img alt="toggle" src="/bundles/frontend/img/navbar/triangle_collapsed.svg" />
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        <div class="dropdown-content">
+            <p>autotest user</p>
+            <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><a>My profile</a>
+            <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+            <hr />
+            <a>Log Out</a>
+        </div>
+    </div>
+</a></jhi-profile-dropdown>
+</div></jhi-search></jhi-nav-app>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <script src="/js/4873048.js"></script>
+      <div class="container">
+      <div class="main-content">
+        <jhi-patient-app><router-outlet></router-outlet><jhi-patient><div>
+    <div class="col-xs-12 heading">
+        <h1>PATIENTS</h1>
+        <h1 class="question-mark clickable" tooltipplacement="bottom" ng-reflect-html-content="&lt;h4&gt;Important Information&lt;/h4&gt;The adherence percentage is calculated by the number of doses that have been indicated as taken, divided by the number of doses scheduled over the last 30 days.It should not be relied upon as an indicator that medication is being taken as prescribed. &lt;br&gt;&lt;br&gt; Appointment attendance is defined by attended appointments divided by the total number of appointments over the last 30 days. &lt;br&gt;&lt;br&gt;&lt;h5&gt;Medication Adherence Legend&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Missed All (Red)&lt;/li&gt;&lt;li&gt;Missed Some (Yellow)&lt;/li&gt;&lt;li&gt;Took All (Green)&lt;/li&gt;&lt;/ul&gt;" ng-reflect-placement="bottom"></h1>
+        <!--template bindings={
+  "ng-reflect-ng-for-of": ""
+}-->
+        
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+    </div>
+</div>
+<div class="row">
+    <jhi-patient-sidenav><div class="col-md-3 col-sm-12 hidden-sm hidden-xs side-nav-bar">
+    <ul class="custom-nav">
+        <li class="parent-nav selected-nav">
+            <h1>ALL PATIENTS</h1>
+            <div class="arrow-left"></div>
+        </li>
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><li class="child-nav">
+            <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts.svg" />
+            <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts_white.svg" ng-reflect-hidden="true" hidden="" />
+            <h1>PATIENTS WITH ALERTS</h1>
+            <div class="arrow-left"></div>
+        </li>
+        <li class="child-nav">
+            <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected.svg" />
+            <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected_white.svg" ng-reflect-hidden="true" hidden="" />
+            <h1>PENDING DISCONNECT</h1>
+            <div class="arrow-left"></div>
+        </li>
+        <li class="parent-nav">
+            <h1>CONNECTION REQUESTS</h1>
+            <div class="arrow-left"></div>
+        </li>
+    </ul>
+</div>
+<div class="col-sm-12 visible-sm side-nav-bar">
+    <ul class="nav nav-pills">
+        <li class="parent-nav selected-nav">
+            <a>
+                <h1>ALL PATIENTS</h1>
+            </a>
+        </li>
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><li class="child-nav">
+            <a>
+                <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts.svg" />
+                <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts_white.svg" ng-reflect-hidden="true" hidden="" />
+                <h1>PATIENTS WITH ALERTS</h1>
+            </a>
+        </li>
+        <li class="child-nav">
+            <a>
+                <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected.svg" />
+                <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected_white.svg" ng-reflect-hidden="true" hidden="" />
+                <h1>PENDING DISCONNECT</h1>
+            </a>
+        </li>
+        <li class="parent-nav">
+            <a>
+                <h1>CONNECTION REQUESTS</h1>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="col-xs-12 visible-xs dropdown side-nav-bar side-nav-xs">
+    <button aria-expanded="true" aria-haspopup="true" class="btn btn-default btn-lg dropdown-toggle parent-nav" data-toggle="dropdown" id="dropdownMenu1" type="button">
+        <h1>ALL PATIENTS</h1>
+        <span aria-hidden="true" class="caret"></span>
+    </button>
+    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu nav">
+        <li class="parent-nav selected-nav">
+            <a>
+                <h1>ALL PATIENTS</h1>
+            </a>
+        </li>
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><li class="child-nav">
+            <a>
+                <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts.svg" />
+                <img alt="alert indicator" src="../bundles/frontend/img/patientswithalerts_white.svg" ng-reflect-hidden="true" hidden="" />
+                <h1>PATIENTS WITH ALERTS</h1>
+            </a>
+        </li>
+        <li class="child-nav">
+            <a>
+                <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected.svg" />
+                <img alt="disconnected indicator" src="../bundles/frontend/img/disconnected_white.svg" ng-reflect-hidden="true" hidden="" />
+                <h1>PENDING DISCONNECT</h1>
+            </a>
+        </li>
+        <li class="parent-nav">
+            <a>
+                <h1>CONNECTION REQUESTS</h1>
+            </a>
+        </li>
+    </ul>
+</div></jhi-patient-sidenav>
+    <div class="col-md-9 col-sm-12 overflow-x-auto">
+        <div class="sorting-wrapper">
+            <h1> TOTAL PATIENTS</h1>
+            <h1 class="sort-info">
+                Sort By:
+                <span>NAME</span>
+                <img alt="downarrow" src="../bundles/frontend/img/cal_arrow_left.svg" ng-reflect-ng-class="[object Object]" />
+            </h1>
+            <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        </div>
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><div class="list-loading"><img alt="Loading..." src="/bundles/frontend/img/loading.svg" /></div>
+    </div>
+</div>
+<!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+<!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><div>
+    <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+</div></jhi-patient></jhi-patient-app>
+      </div>
+    </div>
+  </div>
+  </div>
+
+      <footer class="legal-notice">
+    <p>
+        <a class="legal-link" href="/docs/portal-legal.html#appInfo" target="_blank">Important
+            HCP Portal Information</a> •
+        <a class="legal-link" href="/docs/portal-legal.html#terms" target="_blank">Terms of Use</a> •
+        <a class="legal-link" href="/docs/portal-legal.html#privacy" target="_blank">Privacy Policy</a> •
+        <a class="legal-link" href="/docs/portal-legal.html#support" target="_blank">Support</a>
+    </p>
+    <br /><br />
+    <p>
+        © Janssen Diagnostics, LLC. 2016. All Rights Reserved. This site is published by Janssen Diagnostics, LLC,
+        which is solely responsible for its contents. Please read our Important HCP Portal Information, Privacy Policy
+        and Terms of Use. This site is intended for use by residents of the United States. All trademarks used herein
+        are registered trademarks of their respective owners. This page was last modified on: October 12, 2016.
+    </p>
+</footer>
+  
+  <script>
+      drugDbNamesUrl = 'https://drugdb.jhiplatform.services/api/v1/us/drug_names.json';
+      drugDbDrugsUrl = 'https://drugdb.jhiplatform.services/api/v1/us/drugs.json';
+  </script>
+
+    
+  
+    <script src="/js/8bce3e5.js"></script>
+  
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-TXQ92X"
+                  height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TXQ92X');
+</script>
+<!-- End Google Tag Manager -->
+
+</body></html>

@@ -92,9 +92,4 @@ public class NewHCPAccountPage extends Page {
 		LOGGER.error("Page source:\n" + driver.getPageSource());
 		throw new ValueNotFoundInDropDownException(dropDown, value);
 	}
-	
-	 private void waitForVisibility(WebElement element) {
-         new WebDriverWait(driver, Property.TIMEOUT)
-              .until(ExpectedConditions.visibilityOf(element));
-  }
 }

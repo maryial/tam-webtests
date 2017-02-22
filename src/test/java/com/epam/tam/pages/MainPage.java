@@ -26,7 +26,7 @@ public class MainPage extends Page {
 	@FindBy(name = "global-search")
 	private WebElement search;
 	
-	private static final String SEARCH_RESULT_XPATH = "//jhi-search//*[@class='dropdown-menu']";
+	private static final String SEARCH_RESULT_XPATH = "//*[@class='dropdown-menu']";
 		
 	private static final String IMPORTANT_INFO_TOOLTIP_XPATH = "//*[@class='tooltip bottom tooltip-bottom in fade']";
 	
@@ -52,7 +52,7 @@ public class MainPage extends Page {
 	
 	public WebElement searchText(String text) throws ElementByXpathNotFoundException {
 		LOGGER.info("Searching for text {}", text);
-		new Actions(driver).sendKeys(search, Keys.ENTER).build().perform();
+		new Actions(driver).sendKeys(search, text).sendKeys(search, Keys.ENTER).build().perform();
 		return findWebElementByXpath(SEARCH_RESULT_XPATH);
 	}	
 }

@@ -1,0 +1,218 @@
+[INFO  - 2017-02-12T20:46:16.191Z] GhostDriver - Main - running on port 46954
+[INFO  - 2017-02-12T20:46:16.688Z] Session [4cad2ca0-f164-11e6-b11c-33f06001c4c5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T20:46:16.688Z] Session [4cad2ca0-f164-11e6-b11c-33f06001c4c5] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T20:46:16.689Z] Session [4cad2ca0-f164-11e6-b11c-33f06001c4c5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T20:46:16.689Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4cad2ca0-f164-11e6-b11c-33f06001c4c5
+[ERROR - 2017-02-12T20:46:23.807Z] Session [4cad2ca0-f164-11e6-b11c-33f06001c4c5] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T20:46:23.808Z] Session [4cad2ca0-f164-11e6-b11c-33f06001c4c5] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T20:46:34.316Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486932394285
+[INFO  - 2017-02-12T20:51:16.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T20:51:16.243Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '4cad2ca0-f164-11e6-b11c-33f06001c4c5', because windowless
+[INFO  - 2017-02-12T20:51:22.587Z] GhostDriver - Main - running on port 57771
+[INFO  - 2017-02-12T20:51:23.249Z] Session [0366d2c0-f165-11e6-9b8e-277754cf33a9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T20:51:23.250Z] Session [0366d2c0-f165-11e6-9b8e-277754cf33a9] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T20:51:23.250Z] Session [0366d2c0-f165-11e6-9b8e-277754cf33a9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T20:51:23.250Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0366d2c0-f165-11e6-9b8e-277754cf33a9
+[ERROR - 2017-02-12T20:51:30.863Z] Session [0366d2c0-f165-11e6-9b8e-277754cf33a9] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T20:51:30.863Z] Session [0366d2c0-f165-11e6-9b8e-277754cf33a9] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T20:51:41.353Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486932701351
+[INFO  - 2017-02-12T20:56:22.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T20:56:22.632Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '0366d2c0-f165-11e6-9b8e-277754cf33a9', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T20:54:04.688Z] Session [63a02790-f165-11e6-ac2e-87e5a592e2d6] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T20:54:04.688Z] Session [63a02790-f165-11e6-ac2e-87e5a592e2d6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T20:54:04.689Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 63a02790-f165-11e6-ac2e-87e5a592e2d6
+[ERROR - 2017-02-12T20:54:11.895Z] Session [63a02790-f165-11e6-ac2e-87e5a592e2d6] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T20:54:11.896Z] Session [63a02790-f165-11e6-ac2e-87e5a592e2d6] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T20:54:22.633Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486932862597
+[INFO  - 2017-02-12T20:59:04.682Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T20:59:04.688Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '63a02790-f165-11e6-ac2e-87e5a592e2d6', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T20:57:47.847Z] Session [e8a38400-f165-11e6-b856-99597734a9d6] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T20:57:47.847Z] Session [e8a38400-f165-11e6-b856-99597734a9d6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T20:57:47.847Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e8a38400-f165-11e6-b856-99597734a9d6
+[ERROR - 2017-02-12T20:57:57.156Z] Session [e8a38400-f165-11e6-b856-99597734a9d6] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T20:57:57.156Z] Session [e8a38400-f165-11e6-b856-99597734a9d6] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T20:58:07.696Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486933087639
+[INFO  - 2017-02-12T21:02:47.202Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T21:02:47.205Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'e8a38400-f165-11e6-b856-99597734a9d6', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T21:02:18.480Z] Session [89f2fca0-f166-11e6-bdef-cf1f004f1092] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T21:02:18.480Z] Session [89f2fca0-f166-11e6-bdef-cf1f004f1092] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T21:02:18.480Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 89f2fca0-f166-11e6-bdef-cf1f004f1092
+[ERROR - 2017-02-12T21:02:25.880Z] Session [89f2fca0-f166-11e6-bdef-cf1f004f1092] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T21:02:25.880Z] Session [89f2fca0-f166-11e6-bdef-cf1f004f1092] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T21:02:37.323Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486933357303
+[INFO  - 2017-02-12T21:07:17.858Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T21:07:17.863Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '89f2fca0-f166-11e6-bdef-cf1f004f1092', because windowless
+mages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T21:05:21.675Z] Session [f7245350-f166-11e6-b0f8-07c869837e3c] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T21:05:21.675Z] Session [f7245350-f166-11e6-b0f8-07c869837e3c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T21:05:21.675Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7245350-f166-11e6-b0f8-07c869837e3c
+[ERROR - 2017-02-12T21:05:35.125Z] Session [f7245350-f166-11e6-b0f8-07c869837e3c] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T21:05:35.126Z] Session [f7245350-f166-11e6-b0f8-07c869837e3c] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[ERROR - 2017-02-12T21:05:45.599Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1486933545593
+[INFO  - 2017-02-12T21:10:21.097Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T21:10:21.097Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'f7245350-f166-11e6-b0f8-07c869837e3c', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T21:06:54.879Z] Session [2eb15d40-f167-11e6-a142-9b7291384e0b] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T21:06:54.879Z] Session [2eb15d40-f167-11e6-a142-9b7291384e0b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T21:06:54.879Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2eb15d40-f167-11e6-a142-9b7291384e0b
+[ERROR - 2017-02-12T21:07:08.317Z] Session [2eb15d40-f167-11e6-a142-9b7291384e0b] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-02-12T21:07:08.317Z] Session [2eb15d40-f167-11e6-a142-9b7291384e0b] - page.onError - stack:
+  t (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:14)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:4)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:35)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:1)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:9)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:8)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:36)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:29)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  (anonymous function) (https://c4c-review.jhidevelopment.com/js/fde3386.js:43)
+  r (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+  webpackJsonp (https://c4c-review.jhidevelopment.com/js/a8d3a0e.js:13)
+[INFO  - 2017-02-12T21:11:54.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-12T21:11:54.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '2eb15d40-f167-11e6-a142-9b7291384e0b', because windowless
